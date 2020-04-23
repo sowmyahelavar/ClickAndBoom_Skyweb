@@ -26,7 +26,7 @@ public class ClickAndBoom_Base {
 	ExtentReports extent;
 	ExtentTest logger;
 	WebDriver driver;
-	static String driverPath = "C:\\Users\\lenovo\\eclipse-workspace\\chromedriver.exe";
+	static String driverPath = "C:\\chromedriver\\chromedriver.exe";
 
  
 

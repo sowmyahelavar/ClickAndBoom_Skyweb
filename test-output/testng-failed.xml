@@ -3,19 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Package.ClickAndBoom_Administration">
+      <class name="Package.ClickAndBoom_HMC">
         <methods>
-          <include name="OverdueNotificationPageTest"/>
-          <include name="DVIPhonenumbersPageTest"/>
-          <include name="DVITextMessagesPageTest"/>
           <include name="getResult"/>
-          <include name="SecuritySettingsPageTest"/>
-          <include name="ReportingRegionPageTest"/>
+          <include name="HardwareConfigurationReportPageTest"/>
           <include name="endtest"/>
           <include name="startReport"/>
-          <include name="HardwareProfilePageTest"/>
+          <include name="RADARTrackingConfigurationPageTest"/>
         </methods>
-      </class> <!-- Package.ClickAndBoom_Administration -->
+      </class> <!-- Package.ClickAndBoom_HMC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
